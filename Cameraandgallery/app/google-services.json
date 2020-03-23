@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "479228581515",
+    "firebase_url": "https://cameratest-74efa.firebaseio.com",
+    "project_id": "cameratest-74efa",
+    "storage_bucket": "cameratest-74efa.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:479228581515:android:e6389e59e1e9a889",
+        "android_client_info": {
+          "package_name": "jm_id.com.samar.projectjmi_id.cameraandgallery"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "479228581515-fhden93v6sujdatpoattegqqjic8l7gd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCkTTX-1HK0KcEI4AZWCVLae2aVP8D3kkI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

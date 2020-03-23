@@ -1,0 +1,264 @@
+* {
+	box-sizing: border-box;
+}
+.main {
+	height: auto;
+	width: 100%;
+	margin: auto;
+	position: relative;
+}
+.box {
+	height: 50px;
+	background-color: black;
+	position: relative;
+}
+.logo {
+	float: left;
+	background-color: red;
+	/*height: 100%;*/
+	width: 20%;
+	text-align: right;
+	/*box-sizing: border-box;*/
+	
+}
+.logo h3 {
+	padding:1px;
+	margin: 0px;
+	/*position: absolute;*/
+	margin: 12px;
+	color: white;
+	font-family: verdana;
+}
+.navi {
+	float: right;
+	margin-right: 135px;
+	/*padding-top: 15px;*/
+	position: relative;
+	/*height: 100%;*/
+}
+.navi a {
+	text-decoration: none; 
+	margin-left: 10px;
+	display: inline-block;
+	width: 80px;
+	height: 100%;
+	float: left;
+}
+.navi a:hover {
+	background-color: red;
+}
+.navi a p {
+	/*padding-top: 15px;*/
+	color: white;
+	margin: 0px;
+	padding: 16px;
+}
+.main2 {
+	position: relative;
+	height: 824px;
+	background-color: #f3f0f0;
+
+}
+.main2 img {
+	position: absolute;
+	height: 600px;
+	width: 100%;
+
+}
+.container {
+	width: 80%;
+	margin: auto;
+	/*background-color: steelblue;*/
+	position: relative;
+	height: 1080px;
+	top: -690px;
+}
+.back {
+	position: absolute;
+	height: 550px;
+	width: 100%;
+}
+.list {
+	/*list-style-type: none;*/
+	margin: 0px;
+	padding: 0px;
+	position: relative;
+	/*text-align: center;*/
+	top: 575px;
+	/*left: 10px;*/
+	height: 100px;
+	width: 100%;
+}
+.list ul {
+	position: absolute;
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+	height: auto;
+}
+.list li {
+	display: inline-block;
+	width: 24%;
+	height: 100px;
+	margin-left: 9px;
+	/*position: relative;*/
+	/*border: 2px solid red;*/
+	float: left;
+	/*box-sizing: border-box;*/
+
+}
+.list i {
+	margin-right: 10px;
+	float: left;
+}
+.list h3 {
+	margin: 0px;
+	padding: 0px;	
+	float: left;
+	padding-top: 10px;
+}
+.list p {
+	font-size: 12px;
+	margin: 0px;
+	padding: 0px;
+	float: left;
+	top: 45px;
+	padding-top: 5px;
+	padding-left: 3px;
+}
+
+.latest {
+	height: 400px;
+	position: relative;
+	top: 600px;
+}
+.heading h3 {
+	padding-left: 20px;
+	letter-spacing: 2px;
+}
+
+.heading {
+	height: 65px;
+	text-align: left;
+	position: absolute;
+	width: 100%;
+}
+.images {
+	position: relative;
+	top: 80px;
+	width: 100%;
+	height: 200px;
+
+}
+.images ul {
+	position: absolute;
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+	height: auto;
+}
+.images  li {
+	display: inline-block;
+	height: 200px;
+	width: 24%;
+	float: left;
+	border:2px solid red;
+	box-sizing: border-box;
+	margin-left: 11px;
+}
+.images li img {
+	height: 195px;
+	width: 100%;
+}
+
+/*@media only screen and (max-width: 992px) {
+		.container {
+			width: 100%;
+
+		}
+		.navi {
+			width
+		}
+		.main2 {
+			width: 700px;
+		}
+}*/
+@media only screen and (max-width: 992px) {
+		.list li {
+			width: 48%;
+		}
+		.list {
+			height: 200px;
+		}
+		.main2 {
+			height: 924px;
+		}
+		.logo {
+			width: 100%;
+			text-align: center;
+		}
+		.navi {
+			width: 100%;
+			clear: both;
+			margin-right: 0px;
+			margin: auto;
+		}
+		.navi a {
+			width: 14.67%;
+			text-align: center;
+			margin-left: 3px;
+		}
+		.box{
+			height: 100px;
+		}
+		.container {
+		width: 100%;
+		top: -790px;
+	}
+	.images{
+		height: 400px;
+	}
+	.images ul li {
+		width: 48%;
+	}
+	.images ul li img {
+		width: 100%;
+	}
+}
+@media only screen and (max-width: 768px) {
+	.list li {
+		width: 100%;
+		margin: 0px;
+	}
+	.list {
+		height: 400px;
+	}
+	.main2 {
+		height: 1124px;
+	}
+	.container {
+		top: -990px;
+	}
+	.heading {
+		text-align: center;
+	}
+	.images{
+		height: 800px;
+	}
+
+	.images ul li {
+		width: 100%;
+		margin-top: 2px;
+	}
+
+	.images ul li img {
+		width: 100%;
+}
+@media only screen and (max-width: 568px) {
+	.box {
+		height: 150px;
+	}
+	.navi a {
+		width: 32%;
+	}
+}

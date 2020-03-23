@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:padding="20dp"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Click to open"
+        android:padding="10dp"
+        android:id="@+id/buttonopen"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_alignParentStart="true"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/buttonopen"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/showimage"
+
+        android:padding="10dp"
+        android:text="Show Photos" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="upload"
+        android:id="@+id/ipload"
+        android:layout_alignParentEnd="true"
+        android:padding="10dp"
+        android:textColor="@color/colorAccent"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:layout_below="@+id/buttonopen"
+        android:layout_marginTop="10dp"
+        android:id="@+id/imageshow"
+        android:scaleType="fitXY"
+        android:background="#123d"/>
+
+
+
+</RelativeLayout>

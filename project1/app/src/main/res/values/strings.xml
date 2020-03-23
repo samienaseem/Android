@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Project-1</string>
+    <string name="password">password</string>
+    <string name="login">LOGIN</string>
+    <string name="register_now">Register Now</string>
+    <string name="food_image">food image</string>
+    <string name="welcome">WELCOME</string>
+    <string name="username">username</string>
+    <string name="address">Address</string>
+    <string name="textview">TextView</string>
+    <string name="state">State</string>
+    <string name="city">city</string>
+
+    <string name="female">Female</string>
+    <string name="male">Male</string>
+    <string name="example_com">example.com</string>
+</resources>

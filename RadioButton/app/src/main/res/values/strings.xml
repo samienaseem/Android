@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">RadioButton</string>
+    <string name="twitter">twitter</string>
+    <string name="facebook">facebook</string>
+    <string name="youtube">youtube</string>
+    <string name="amazon">amazon</string>
+    <string name="ok">ok</string>
+    <string name="message">Alert message</string>
+    <string name="title">title</string>
+</resources>
